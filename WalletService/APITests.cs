@@ -73,7 +73,7 @@ namespace WalletService
 
         // Test method to verify that making a withdrawal decreases the balance correctly.
         [Fact]
-        public async Task First_Withdraw_ShouldDecreaseBalance()
+        public async Task First_Withdraw_ShouldReduceBalance()
         {
             // Arrange: Withdraw an amount of 200 by calling the SendRequestAsync helper method.
             await SendRequestAsync("/onlinewallet/withdraw", new { Amount = 200 });
