@@ -97,3 +97,4 @@ C:\Users\Anupam\source\repos\WalletService\WalletService\obj\Debug\net8.0\refint
 C:\Users\Anupam\source\repos\WalletService\WalletService\obj\Debug\net8.0\WalletService.pdb
 C:\Users\Anupam\source\repos\WalletService\WalletService\obj\Debug\net8.0\WalletService.genruntimeconfig.cache
 C:\Users\Anupam\source\repos\WalletService\WalletService\obj\Debug\net8.0\ref\WalletService.dll
+C:\Users\Anupam\source\repos\WalletService\WalletService\obj\Debug\net8.0\WalletService.sourcelink.json
