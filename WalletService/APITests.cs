@@ -48,7 +48,7 @@ namespace WalletService
 
         // Test method to verify that the GetBalance API returns the correct current balance.
         [Fact]
-        public async Task GetBalance_ShouldReturnCurrentBalance()
+        public async Task Two_GetBalance_ShouldReturnCurrentBalance()
         {
             // Act: Retrieve the current balance by calling the GetBalanceAsync helper method.
             var balanceResponse = await GetBalanceAsync();
@@ -59,7 +59,7 @@ namespace WalletService
 
         // Test method to verify that making a deposit increases the balance correctly.
         [Fact]
-        public async Task Deposit_ShouldIncreaseBalance()
+        public async Task One_Deposit_ShouldIncreaseBalance()
         {
             // Arrange: Deposit an amount of 200 by calling the SendRequestAsync helper method.
             await SendRequestAsync("/onlinewallet/deposit", new { Amount = 200 });
@@ -73,7 +73,7 @@ namespace WalletService
 
         // Test method to verify that making a withdrawal decreases the balance correctly.
         [Fact]
-        public async Task Withdraw_ShouldDecreaseBalance()
+        public async Task First_Withdraw_ShouldDecreaseBalance()
         {
             // Arrange: Withdraw an amount of 200 by calling the SendRequestAsync helper method.
             await SendRequestAsync("/onlinewallet/withdraw", new { Amount = 200 });
