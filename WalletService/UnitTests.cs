@@ -49,5 +49,18 @@
             Assert.Equal(100, balance);
         }
 
+        [Fact]
+        public void Deposit_ShouldAddFundsToBalance()
+        {
+            // Arrange: Initialize a new WalletService instance.
+            var walletService = new WalletService();
+
+            // Act: Deposit a specified amount into the wallet.
+            walletService.Deposit(200);
+
+            // Assert: Verify the balance is updated to reflect the deposit.
+            Assert.Equal(200, walletService.GetBalance());
+        }
+
     }
 }
